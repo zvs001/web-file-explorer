@@ -1,8 +1,9 @@
 {
-  "name": "web-file-expolrer",
-  "version": "0.0.1-rc.1",
-  "description": "",
+  "name": "web-file-explorer",
+  "version": "0.0.1",
+  "description": "Browser file explorer boost.",
   "main": "index.js",
+  "keywords": ["browser", "explorer", "file", "input"],
   "scripts": {
     "prepack": "npx tsc --noEmit false",
     "postpublish": "npm run clean",
@@ -14,6 +15,7 @@
     "lodash": "^4.17.20"
   },
   "devDependencies": {
+    "@zvs001/module-kit": "^0.0.1",
     "typescript": "^4.1.2"
   }
 }

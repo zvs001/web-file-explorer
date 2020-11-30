@@ -1,6 +1,8 @@
 
 Library boost for browser file explorer.
 
+[![npm](https://img.shields.io/npm/v/web-file-explorer)](https://www.npmjs.com/package/web-file-explorer)
+
 # Usage
 
 Open file explorer and get file:
