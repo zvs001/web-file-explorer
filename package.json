@@ -11,6 +11,10 @@
   },
   "author": "",
   "license": "MIT",
+  "homepage": "https://github.com/zvs001/web-file-explorer#readme",
+  "repository": {
+    "url": "https://github.com/zvs001/web-file-explorer#readme"
+  },
   "dependencies": {
     "lodash": "^4.17.20"
   },
