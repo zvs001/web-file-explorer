@@ -1,9 +1,14 @@
 {
   "name": "web-file-explorer",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Browser file explorer boost.",
   "main": "index.js",
-  "keywords": ["browser", "explorer", "file", "input"],
+  "keywords": [
+    "browser",
+    "explorer",
+    "file",
+    "input"
+  ],
   "scripts": {
     "prepack": "npx tsc --noEmit false",
     "postpublish": "npm run clean",
