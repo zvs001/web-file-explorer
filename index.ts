@@ -60,6 +60,8 @@ function getFile(options?: FileExplorerGetFileOptions): Promise<File> {
   const input = document.createElement('input')
   input.type = 'file'
   input.accept = accept || '*'
+  input.className = 'web-file-input-element'
+  input.style.display = 'none'
   document.body.appendChild(input)
 
   return new Promise((resolve, reject) => {
@@ -73,15 +75,20 @@ function getFile(options?: FileExplorerGetFileOptions): Promise<File> {
       close(event, () => resolve(file))
     }
 
+    /**
+     * there no reliable way to monitor cancel event.
+     * onBlur can be, but it is called on wrong moment and multiple times
+     */
     input.addEventListener('change', listener)
 
     input.click()
 
     function close(event, cb) {
-      cb()
       input.remove()
       input.removeEventListener('change', listener)
       event.target.value = ''
+
+      cb()
     }
   })
 }
