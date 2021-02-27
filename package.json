@@ -1,6 +1,6 @@
 {
   "name": "web-file-explorer",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Browser file explorer boost.",
   "main": "index.js",
   "keywords": [
