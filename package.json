@@ -14,11 +14,13 @@
     "postpublish": "npm run clean",
     "clean": "npx module-kit-clean"
   },
-  "author": "",
+  "author": {
+    "name": "Vladislav Zaynchkovsky",
+    "email": "zvsx001@gmail.com"
+  },
   "license": "MIT",
-  "homepage": "https://github.com/zvs001/web-file-explorer#readme",
   "repository": {
-    "url": "https://github.com/zvs001/web-file-explorer#readme"
+    "url": "https://github.com/zvs001/web-file-explorer"
   },
   "dependencies": {
     "lodash": "^4.17.20"
